@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>24DeliveryService</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      color: #00ffae;
+      text-shadow: 2px 2px 10px rgba(0, 255, 174, 0.6);
+    }
+    .card, .section {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      max-width: 900px;
+      margin: 20px auto;
+    }
+    .card p, .section p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .actions {
+      text-align: center;
+    }
+    .actions a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      border-radius: 30px;
+      background: #00ffae;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .actions a:hover {
+      background: #00cc8f;
+    }
+    .services, .why-us {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .service, .reason {
+      flex: 1 1 250px;
+      margin: 10px;
+      padding: 15px;
+      background-color: rgba(255,255,255,0.05);
+      border-radius: 15px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .service h3, .reason h3 {
+      margin-bottom: 10px;
+      color: #00ffae;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    /* Responsive Heading Fix */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>24DeliveryService</h1>
+  </header>
+
+  <div class="card">
+    <p>Fast. Reliable. Always on time.<br>
+    Delivering with passion and precision.</p>
+    <div class="actions">
+      <a href="tel:+971568087186">Call Now</a>
+      <a href="https://wa.me/971568087186" target="_blank">Chat on WhatsApp</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 style="text-align:center; color:#00ffae; margin-bottom: 15px;">About Us</h2>
+    <p>We are a team of dedicated delivery professionals ensuring that your packages and parcels reach their destination safely and on time — every time. Based in Dubai and delivering all across the UAE.</p>
+  </div>
+
+  <div class="section">
+    <h2 style="text-align:center; color:#00ffae; margin-bottom: 15px;">Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>🚀 Express Delivery</h3>
+        <p>Same day and next-day delivery for urgent needs.</p>
+      </div>
+      <div class="service">
+        <h3>📦 Package Handling</h3>
+        <p>We handle fragile and valuable items with extreme care.</p>
+      </div>
+      <div class="service">
+        <h3>📍 Real-Time Tracking</h3>
+        <p>Stay updated with live tracking for every delivery.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 style="text-align:center; color:#00ffae; margin-bottom: 15px;">Why Choose Us?</h2>
+    <div class="why-us">
+      <div class="reason">
+        <h3>✅ Trusted Team</h3>
+        <p>Professional drivers and trained staff.</p>
+      </div>
+      <div class="reason">
+        <h3>💯 Satisfaction</h3>
+        <p>Thousands of happy clients served across the region.</p>
+      </div>
+      <div class="reason">
+        <h3>📞 24/7 Support</h3>
+        <p>Always here when you need help or have questions.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 24DeliveryService. All rights reserved.
+  </footer>
+</body>
+</html>
